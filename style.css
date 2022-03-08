@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  position: relative;
+  font-family: 'Fredoka', sans-serif;
+  background-color:#03071e;
+}
+
+.container{
+  border: 4px solid #48bfe3;
+  position:absolute;
+  display: inline-block;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding:30px;
+  background-color: #2a9d8f;
+}
+
+#counter-heading{
+  border-bottom: 2px solid #264653;
+  font-size: 36px;
+  padding:20px;
+  margin-bottom:20px;
+  font-weight: 600;
+}
+#count-num{
+  margin:50px 0;
+  padding:10px 0;
+  background-color: rgb(80, 77, 77);
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+#btn{
+  display:inline-block;
+  padding:10px 25px;
+  border-radius: 25px;
+  background-color: #264653;
+  color: #fff;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  border:none;
+}
+
+#btn:hover{
+  background-color: #365661;
+}
